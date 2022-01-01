@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-size: 40pt;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.team {
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.profile-parent {
+    width: 100vw;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile {
+    width: 340px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(99, 114, 130, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.bio {
+    padding-left: 10px;
+}
+
+.name {
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #346cf0;
+}
+
+.role {
+    font-family: 'Open Sans';
+    font-size: 11pt;
+    font-weight: 500;
+    color: #404040;
+}
+
+.socials-style {
+    margin: 4px 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.srishti {
+    background-image: url('/Images/Srishti.jpg');
+    background-size: cover;
+}
+
+.rajarshi {
+    background-image: url('/Images/Rajarshi.jpg');
+    background-size: cover;
+}
+
+.shreya {
+    background-image: url('/Images/Shreya.jpg');
+    background-size: cover;
+}
+
+.debo {
+    background-image: url('/Images/Debo.jpg');
+    background-size: cover;
+}
+
+.guha {
+    background-image: url('/Images/Guha.png');
+    background-size: cover;
+}
+
+.sabarna {
+    background-image: url('/Images/Sabarna.jpg');
+    background-size: cover;
+}
+
+.gourab {
+    background-image: url('/Images/Gourab.jpg');
+    background-size: cover;
+}
+
+.subhranil {
+    background-image: url('/Images/Subhranil.jpg');
+    background-size: cover;
+}
+
+.swarup {
+    background-image: url('/Images/Swarup.jpg');
+    background-size: cover;
+}
+
+.parna {
+    background-image: url('/Images/Parna.jpg');
+    background-size: cover;
+}
+
+.rajashree {
+    background-image: url('/Images/Rajashree.jpeg');
+    background-size: cover;
+}
+
+.trinankur {
+    background-image: url('/Images/Trinakur.jpg');
+    background-size: cover;
+}
+
+/* Custom */
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+p {
+    margin: 0 !important;
+    font-family: 'Open Sans';
+}
+
+a,
+a:focus {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-size: 40pt;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin: 0;
+}
+
+.contact-header {
+    margin: 50px 0;
+    display: grid;
+    place-items: center;
+}
+
+.contact-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-cards {
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(99, 114, 130, 0.3);
+    border-radius: 10px;
+    transition: all ease 0.2s;
+    display: grid;
+    place-items: center;
+    margin: 20px;
+}
+
+.contact-cards:hover {
+    box-shadow: 2px 2px 30px rgba(4, 15, 49, 0.08);
+    transform: translateY(10px)
+}
+
+.chapter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chapter-img {
+    height: 70%;
+    width: 70%;
+    margin-bottom: 20px
+}
+
+.contact-mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-mail-img {
+    height: 50%;
+    width: 50%;
+    margin-right: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+}
+
+.footer-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border-top: 1px solid black; */
+}
+
+.foot-header-parent {
+    padding: 20px 50px;
+    border-bottom: 1px solid black;
+}
+
+.foot-header {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.insta {
+    height: 33px;
+    margin: 20px;
+}
+
+.facebook {
+    height: 30px;
+    margin: 20px;
+}
+
+.linkedin {
+    height: 30.5px;
+    margin: 20px;
+
+}
+
+.github {
+    height: 34px;
+    margin: 20px;
+
+}
+
+.youtube {
+    height: 29px;
+    margin: 20px;
+}
+
+/* Custom */
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.container-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

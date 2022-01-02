@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* blue - #4285f4
  red - ea4335
@@ -31,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .row {
@@ -51,7 +51,7 @@ h6 {
 }
 
 .we-are {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 20pt;
   font-weight: 500;
 }
@@ -203,7 +203,7 @@ h6 {
   position: relative;
 }
 
-.navbar>ul>li {
+.navbar > ul > li {
   padding: 10px 0 10px 24px;
 }
 
@@ -229,7 +229,7 @@ h6 {
   margin-left: 5px;
 }
 
-.navbar>ul>li>a:before {
+.navbar > ul > li > a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -243,7 +243,7 @@ h6 {
 }
 
 .navbar a:hover:before,
-.navbar li:hover>a:before,
+.navbar li:hover > a:before,
 .navbar .active:before {
   visibility: visible;
   width: 100%;
@@ -252,7 +252,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: #fff;
 }
 
@@ -275,7 +275,7 @@ h6 {
 }
 
 .navbar .getstarted:before,
-.navbar li:hover>.getstarted:before {
+.navbar li:hover > .getstarted:before {
   visibility: hidden;
 }
 
@@ -310,11 +310,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   color: #5846f9;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -326,7 +326,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -338,7 +338,7 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -396,7 +396,7 @@ h6 {
   transition: 0.3s;
 }
 
-.navbar-mobile>ul>li {
+.navbar-mobile > ul > li {
   padding: 0;
 }
 
@@ -408,14 +408,14 @@ h6 {
 }
 
 .navbar-mobile a:hover:before,
-.navbar-mobile li:hover>a:before,
+.navbar-mobile li:hover > a:before,
 .navbar-mobile .active:before {
   visibility: hidden;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #5846f9;
 }
 
@@ -450,11 +450,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   color: #5846f9;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -464,7 +464,12 @@ h6 {
 #hero {
   width: 100%;
   height: 70vh;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(
+      45deg,
+      rgba(86, 58, 250, 0.9) 0%,
+      rgba(116, 15, 214, 0.9) 100%
+    ),
+    url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -561,8 +566,7 @@ h6 {
   }
 }
 
-@media (max-width: 575px),
-(max-height: 600px) {
+@media (max-width: 575px), (max-height: 600px) {
   #hero {
     height: auto;
   }
@@ -688,7 +692,12 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: linear-gradient(90deg, rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), url("../img/counts-bg.png") center center no-repeat;
+  background: linear-gradient(
+      90deg,
+      rgba(88, 70, 249, 0.5) 0%,
+      rgba(123, 39, 216, 0.5) 100%
+    ),
+    url("../img/counts-bg.png") center center no-repeat;
   padding: 40px 0 30px 0;
 }
 
@@ -720,7 +729,7 @@ section {
 .home-cards-img {
   height: 180px;
   width: 225px;
-  background: url('/assets/img/events-card.jpeg');
+  background: url("/assets/img/events-card.jpeg");
   background-size: cover;
   margin-top: 10px;
 }
@@ -1123,7 +1132,10 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1131,7 +1143,10 @@ section {
   border: 1px solid #5846f9;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #5846f9;
 }
 
@@ -1154,7 +1169,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -1307,7 +1322,7 @@ section {
   list-style: none;
 }
 
-.faq .faq-list li+li {
+.faq .faq-list li + li {
   margin-top: 15px;
 }
 
@@ -1347,7 +1362,7 @@ section {
 }
 
 .faq .faq-list p {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   margin-bottom: 0;
   padding: 10px 0 0 0;
   color: #666;
@@ -1378,8 +1393,6 @@ section {
     padding: 0;
   }
 }
-
-
 
 @-webkit-keyframes animate-loading {
   0% {
@@ -1431,11 +1444,11 @@ section {
   margin: 0;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: #3c6387;
@@ -1455,7 +1468,6 @@ section {
     display: inline-block;
   }
 }
-
 
 /* Custom */
 
@@ -1479,16 +1491,15 @@ section {
   background: #555;
 }
 
-
 Domains .domain-header {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 500;
   font-size: 40pt;
   letter-spacing: -2px;
 }
 
 .domain-subheader {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   color: gray;
 }
 
@@ -1508,7 +1519,7 @@ Domains .domain-header {
 }
 
 .cards {
-  width: 300px;
+  width: 319px;
   height: 530px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(99, 114, 130, 0.3);
@@ -1538,16 +1549,18 @@ Domains .domain-header {
 }
 
 .card-header {
-  font-family: 'Poppins';
-  font-weight: 400;
-  font-size: 18pt;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15pt;
   margin-bottom: 20px;
   letter-spacing: -1px;
+  background: #ffffff;
+  border-bottom: none;
 }
 
 .card-info {
   text-align: center;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 11pt;
 }
 
@@ -1587,7 +1600,6 @@ Domains .domain-header {
 .compi {
   background-color: #fbbc04;
 }
-
 
 /* Team */
 
@@ -1630,13 +1642,13 @@ Domains .domain-header {
 }
 
 .name {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 500;
   color: #346cf0;
 }
 
 .role {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 11pt;
   font-weight: 500;
   color: #404040;
@@ -1651,7 +1663,6 @@ Domains .domain-header {
 .bio p {
   margin: 0px;
 }
-
 
 /* Contact */
 
@@ -1680,7 +1691,7 @@ Domains .domain-header {
 
 .contact-cards:hover {
   box-shadow: 2px 2px 30px rgba(4, 15, 49, 0.08);
-  transform: translateY(10px)
+  transform: translateY(10px);
 }
 
 .chapter {
@@ -1693,7 +1704,7 @@ Domains .domain-header {
 .chapter-img {
   height: 70%;
   width: 70%;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
 .contact-mail {
@@ -1712,13 +1723,13 @@ Domains .domain-header {
 /* Events */
 
 .content-ev a {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 40pt;
   letter-spacing: -1px;
 }
 
 .content-ev h2 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 500;
   letter-spacing: -1px;
   color: black;
@@ -1738,7 +1749,7 @@ Domains .domain-header {
 
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 6px;
   background-color: white;
@@ -1747,7 +1758,6 @@ Domains .domain-header {
   left: 50%;
   /* margin-left: -3px; */
   box-shadow: 0 0 15px rgba(99, 114, 130, 0.3);
-
 }
 
 /* Container around content */
@@ -1756,12 +1766,11 @@ Domains .domain-header {
   position: relative;
   background-color: inherit;
   width: 50%;
-
 }
 
 /* The circles on the timeline */
 .container-ev::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 25px;
   height: 25px;
@@ -1772,13 +1781,11 @@ Domains .domain-header {
   top: 15px;
   border-radius: 50%;
   z-index: 1;
-
 }
 
 /* Place the container to the left */
 .left-ev {
   left: 0;
-
 }
 
 /* Place the container to the right */
@@ -1829,7 +1836,6 @@ Domains .domain-header {
   border-radius: 6px;
   box-shadow: 0 0 15px rgba(99, 114, 130, 0.3);
   transition: all ease 0.3s;
-
 }
 
 .content-ev:hover {
@@ -1839,7 +1845,6 @@ Domains .domain-header {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-
   /* Place the timelime to the left */
   .timeline::after {
     left: 31px;

@@ -1519,7 +1519,7 @@ Domains .domain-header {
 }
 
 .cards {
-  width: 300px;
+  width: 319px;
   height: 530px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(99, 114, 130, 0.3);
@@ -1551,7 +1551,7 @@ Domains .domain-header {
 .card-header {
   font-family: "Poppins";
   font-weight: 500;
-  font-size: 18pt;
+  font-size: 15pt;
   margin-bottom: 20px;
   letter-spacing: -1px;
   background: #ffffff;
